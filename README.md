@@ -1,0 +1,2 @@
+# AgriuSec
+Complete farm-to-table agricultural business website showcasing crop production, livestock management, and premium butchery services. The platform highlights sustainable farming practices and high-quality meat processing, presented through a clean, modern web design. From soil to plate, it offers a transparent look into every stage of the food journey, emphasizing freshness, ethical standards, and traceability.
