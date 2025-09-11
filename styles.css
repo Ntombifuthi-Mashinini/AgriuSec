@@ -112,16 +112,25 @@ main form label {
   color: #2d5a3d;
 }
 
-main form input {
+main form input,
+main form textarea {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
 }
 
-main form input:focus {
+main form input:focus,
+main form textarea:focus {
   border-color: #2d5a3d;
   outline: none;
+}
+
+main form textarea {
+  resize: vertical;
+  min-height: 80px;
 }
 
 .forgot-password {
@@ -138,7 +147,8 @@ main form input:focus {
   text-decoration: underline;
 }
 
-#sign-in {
+#sign-in,
+main form button {
   width: 100%;
   background-color: #2d5a3d;
   color: white;
@@ -146,11 +156,14 @@ main form input:focus {
   padding: 10px;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
 
-#sign-in:hover {
+#sign-in:hover,
+main form button:hover {
   background-color: #244a32;
 }
+
 
 .grid-container {
   display: grid;
@@ -166,13 +179,6 @@ main form input:focus {
   justify-content: space-between;
   align-items: center;
 }
-
-.header-right {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-}
-
 
 .header-left ul {
   list-style: none;
